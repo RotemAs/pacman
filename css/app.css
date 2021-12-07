@@ -1,0 +1,59 @@
+
+body {
+  text-align: center;
+  background-color: rgb(96, 163, 226);
+  color:white;
+}
+
+
+.board {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  /* background-color: rgb(53, 22, 228) */
+}
+
+h1 {
+  margin-top: 0px;
+  margin: auto;
+    color: gold;
+    /* color: rgb(102, 104, 221); */
+    background-color: rgb(102, 104, 221);
+  /* float:right; */
+  text-shadow: 0px -4px 10px #e99b0a;
+}
+
+h2 {
+  /* position: absolute; */
+    text-align: center;
+  margin: auto;
+  /* margin-top: 50px; */
+  padding: 5px;
+  top: 2px;
+  background-image: linear-gradient( rgb(56, 96, 136), rgb(13, 45, 77));
+  /* float:left ; */
+  margin-left: 7ghost10px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgb(102, 104, 221);
+}
+
+.wall {
+  background-image:linear-gradient(rgb(102, 101, 101), rgb(47, 47, 47));
+  color: rgb(92, 151, 151, 0);
+}
+
+.floor {
+  background-image: radial-gradient( rgb(153, 255, 0), rgb(126, 200, 15));
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
